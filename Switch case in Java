@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Switchcase{
+ 
+ public static void main(String[] args) {
+    
+   int choice;
+   System.out.println("pick any one of the following: 1.Good morning 2.Good evening 3.Good night");
+   Scanner s=new Scanner(System.in);
+   choice=s.nextInt();
+   switch (choice)
+   {
+   	case 1: System.out.println("You said Good morning");
+   	break;
+   	case 2: System.out.println("You said Good evening");
+   	break;
+   	case 3: System.out.println("You said Good night");
+   	break;
+    default: System.out.println("Invalid choice");
+   }
+  }
+ }
